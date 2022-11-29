@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'IBM Plex Sans', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: #fff2f1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:visited {
+  color: white;
+}
+
+section {
+  height: 100vh;
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+section > div {
+  padding: 50px;
+}
+
+/* explorer iframe */
+#overlay,
+#odyssey-explorer {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+/* overlay is to darken the iframe */
+#overlay {
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: -1;
+}
+#odyssey-explorer {
+  border: none;
+  z-index: -2;
+}
+
+/* Page elements */
+.odyssey-banner {
+  height: 170px;
+}
+
+.odyssey-description {
+  font-size: 20px;
+}
+
+.release-info {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.community-info {
+  font-size: 16px;
+}
+
+.action-button {
+  padding: 14px 20px;
+  background: rgba(75, 255, 244, 1);
+  color: rgba(12, 36, 66, 1);
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-decoration: none;
+}
+.action-button:hover {
+  background: rgba(75, 255, 244, 0.8);
+}
+
+.supporters,
+.supporters > img {
+  height: 40px;
+}
+.supporters {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.bottom-text {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 20px;
+}
