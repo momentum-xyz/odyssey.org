@@ -89,6 +89,7 @@ section > div {
 }
 
 .community-info {
+  padding-top: 0.4em;
   font-size: 1.1em;
 }
 
@@ -98,8 +99,8 @@ section > div {
   color: rgba(12, 36, 66, 1);
   text-transform: uppercase;
   border-radius: 5px;
-  font-size: 0.9em;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
   text-decoration: none;
 }
 .action-button:hover {
