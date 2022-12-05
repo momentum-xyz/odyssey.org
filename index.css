@@ -26,6 +26,10 @@ a:visited {
   color: white;
 }
 
+a.action-button, a:visited.action-button {
+    color: rgba(12, 36, 66, 1);
+}
+
 section {
   height: 100vh;
   display: flex;
